@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#Extract indivdual frames from a video
+
+avconv -i filename.mp4 -s vga -f image2 output-%03d.jpeg
